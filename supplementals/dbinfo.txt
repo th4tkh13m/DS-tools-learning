@@ -1,1 +1,1 @@
-postgresql;th4tkh13m;abc123;172.17.0.2;FPTUniversity
+postgresql;th4tkh13m;abc123;postgres;FPTUniversity
