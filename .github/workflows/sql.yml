@@ -30,7 +30,7 @@ jobs:
       # Downloads a copy of the code in your repository before running CI tests
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: Set up Python ${{ 3.10 }}
+      - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -38,7 +38,8 @@ jobs:
       # Performs a clean installation of all dependencies in the `package.json` file
       # For more information, see https://docs.npmjs.com/cli/ci.html
       - name: Install dependencies
-        run: npm i pg
+        run: |
+             npm i pg
              pip install -r requirements.txt
 
       - name: Connect to PostgreSQL using Node
