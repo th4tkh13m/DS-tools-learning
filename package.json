@@ -1,0 +1,23 @@
+{
+  "name": "ds-tools-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th4tkh13m/DS-tools-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th4tkh13m/DS-tools-learning/issues"
+  },
+  "homepage": "https://github.com/th4tkh13m/DS-tools-learning#readme",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
