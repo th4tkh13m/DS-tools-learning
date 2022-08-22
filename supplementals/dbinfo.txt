@@ -1,1 +1,1 @@
-postgresql;th4tkh13m;abc123;postgres;FPTUniversity
+postgresql;th4tkh13m;abc123;localhost;FPTUniversity
